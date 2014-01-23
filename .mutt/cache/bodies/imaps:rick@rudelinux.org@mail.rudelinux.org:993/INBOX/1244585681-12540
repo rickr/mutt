@@ -1,0 +1,26 @@
+Return-Path: <dude@hank.triangulum>
+X-Original-To: rick@rudelinux.org
+Delivered-To: x10112648@homiemail-mx19.g.dreamhost.com
+Received: from homiemail-a102.g.dreamhost.com (caiajhbdccah.dreamhost.com [208.97.132.207])
+	by homiemail-mx19.g.dreamhost.com (Postfix) with ESMTP id 5224128980D
+	for <rick@rudelinux.org>; Wed, 22 Jan 2014 19:50:58 -0800 (PST)
+Received: from homiemail-a102.g.dreamhost.com (localhost [127.0.0.1])
+	by homiemail-a102.g.dreamhost.com (Postfix) with ESMTP id 343002005D106
+	for <rick@rudelinux.org>; Wed, 22 Jan 2014 19:50:58 -0800 (PST)
+Received: from hank.triangulum (pool-96-255-236-5.washdc.fios.verizon.net [96.255.236.5])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: rick@rudelinux.org)
+	by homiemail-a102.g.dreamhost.com (Postfix) with ESMTPSA id CCF812005D100
+	for <rick@rudelinux.org>; Wed, 22 Jan 2014 19:50:57 -0800 (PST)
+Date: Wed, 22 Jan 2014 22:50:56 -0500
+From: dude <dude@hank.triangulum>
+To: rick@rudelinux.org
+Subject: Test
+Message-ID: <20140123035056.GA4780@hank.triangulum>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.21 (2010-09-15)
+
+Testing!
