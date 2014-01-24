@@ -1,0 +1,11 @@
+set edit_headers=yes
+
+# Edit these per your environment
+my_hdr "X-PGP-Key: http://rudelinux.org/pubkey.asc"
+set pgp_sign_as = 9D8B555A
+
+set pgp_use_gpg_agent = no
+set pgp_timeout = 3600
+set crypt_autosign = yes
+set crypt_replyencrypt = yes
+

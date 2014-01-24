@@ -1,0 +1,9 @@
+# Online IMAP 
+set folder='imaps://mail.rudelinux.org:993'
+set spoolfile="=INBOX"
+
+# Set mailboxes automatically
+set imap_check_subscribed
+
+set imap_keepalive = 300
+set mail_check 120
