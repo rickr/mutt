@@ -10,4 +10,4 @@ macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
 
 # Archive all mail
-macro index d "<save-message>+INBOX.Archived<enter><delete-message>"
+macro index d "<save-message>+INBOX.Archived<enter>"
