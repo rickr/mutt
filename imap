@@ -1,9 +1,16 @@
 # Online IMAP 
-set folder='imaps://mail.rudelinux.org:993'
-set spoolfile="=INBOX"
+set folder='imaps://mail.rudelinux.org:993/'
+set spoolfile="+INBOX"
+#mailboxes +INBOX +GamePlans
+
+set message_cachedir = "~/.cache/mutt"
 
 # Set mailboxes automatically
 set imap_check_subscribed
 
 set imap_keepalive = 300
-set mail_check 120
+set mail_check=90
+set timeout=15
+unset imap_passive
+
+#set record="+Sent"

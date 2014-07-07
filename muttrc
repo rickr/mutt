@@ -4,25 +4,29 @@ source '~/.mutt/auth'
 #   set imap_pass='pass'
 
 # Local Maildir from offlineimap
-source '~/.mutt/offlineimap'
+#source '~/.mutt/offlineimap'
 
 # _OR_ Remote IMAP
-#require '~/.mutt/imap'
+source '~/.mutt/imap'
 
 # Editor settings
 set editor="vim -c 'set spell spelllang=en'"
-set text_flowed=yes
+#set text_flowed=yes
 
 
 
 # Outbound mail settings 
 set from=rick@rudelinux.org
 set realname='RickR'
-set postponed = =/Drafts
+set postponed = =Drafts
 set smtp_url=smtps://$imap_user:$imap_pass@mail.rudelinux.org
 set ssl_verify_host = no
 set ssl_verify_dates = no
 
+
+
+set mime_forward=yes 
+set mime_forward_rest=yes
 
 
 # Storage
@@ -45,8 +49,6 @@ unset confirmappend      # don't ask, just do!
 unset mark_old           # read/new is good enough for me
 set beep_new             # bell on new mails
 
-set text_flowed = yes
-
 # Add all people in from/to to aliases
 set display_filter = ~/.mutt/bin/add_or_append_alias.sh
 
@@ -60,10 +62,10 @@ hdr_order from: to: cc: date: subject:  # and in this order
 
 # View Settings
   # Prefer text email
-  #alternative_order text/plain text/html
+  alternative_order text/plain text/html
 
   # Requires good entry in mailcap
-  auto_view text/html
+  #auto_view text/html
 
   # Index
   set date_format="%m-%d-%y %T"

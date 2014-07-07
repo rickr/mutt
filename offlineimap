@@ -1,4 +1,5 @@
 set folder="~/.Maildir"
 set spoolfile="=INBOX"
+#set record="INBOX.Sent"
 
 mailboxes `find ~/.Maildir -type d -name cur -printf '%h\n'|grep -v -e '.Spam$' -e '.Archived$' | sort | tr "\n" " "`
